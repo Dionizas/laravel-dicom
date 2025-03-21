@@ -1,6 +1,6 @@
 <?php
 
-namespace Dionizas\LaravelDicom;
+namespace dionizas\LaravelDicom;
 
 use Illuminate\Support\Facades\Facade;
 
