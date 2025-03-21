@@ -1,8 +1,3 @@
-# Very short description of the package
-
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/mkinyua53/laravel-dicom.svg?style=flat-square)](https://packagist.org/packages/mkinyua53/laravel-dicom)
-[![Total Downloads](https://img.shields.io/packagist/dt/mkinyua53/laravel-dicom.svg?style=flat-square)](https://packagist.org/packages/mkinyua53/laravel-dicom)
-
 ## Installation
 
 You can install the package via composer:
@@ -15,7 +10,7 @@ composer require dionizas/laravel-dicom
 
 ```php
 // Usage description here
-use Dionizas\LaravelDicom\LaravelDicom;
+use dionizas\LaravelDicom\LaravelDicom;
 
 $dicom = new LaravelDicom;
 $res = $dicom->parse($file) // $request->file('file')
