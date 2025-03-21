@@ -42,10 +42,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mkinyua53\\LaravelDicom\\LaravelDicomServiceProvider"
+                "dionizas\\LaravelDicom\\LaravelDicomServiceProvider"
             ],
             "aliases": {
-                "LaravelDicom": "Mkinyua53\\LaravelDicom\\LaravelDicomFacade"
+                "LaravelDicom": "dionizas\\LaravelDicom\\LaravelDicomFacade"
             }
         }
     }
