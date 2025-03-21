@@ -1,0 +1,52 @@
+{
+    "name": "Dionizas/laravel-dicom",
+    "description": "Laravel package based on https://pear.php.net/manual/en/package.fileformats.file-dicom.intro.php",
+    "keywords": [
+        "laravel-dicom"
+    ],
+    "license": "MIT",
+    "type": "library",
+    "author": [
+        {
+            "name": "Dionizas",
+            "email": "fb.dionizas@gmail.com",
+            "role": "Developer"
+        }
+
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "dionizas\\LaravelDicom\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "dionizas\\LaravelDicom\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mkinyua53\\LaravelDicom\\LaravelDicomServiceProvider"
+            ],
+            "aliases": {
+                "LaravelDicom": "Mkinyua53\\LaravelDicom\\LaravelDicomFacade"
+            }
+        }
+    }
+}
