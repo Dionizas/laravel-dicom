@@ -1,6 +1,6 @@
 <?php
 
-namespace Dionizas\LaravelDicom;
+namespace dionizas\LaravelDicom;
 
 /**
  * This class defines DICOM file elements.
