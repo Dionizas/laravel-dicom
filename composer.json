@@ -1,5 +1,5 @@
 {
-    "name": "Dionizas/laravel-dicom",
+    "name": "dionizas/laravel-dicom",
     "description": "Laravel package based on https://pear.php.net/manual/en/package.fileformats.file-dicom.intro.php",
     "keywords": [
         "laravel-dicom"
